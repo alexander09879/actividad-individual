@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+
+body{
+    background-color: rgb(65, 238, 232);
+}
+nav{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgba(80, 187, 244, 0.934);
+   font-family: "Big Shoulders Stencil", sans-serif;
+   
+    
+}
+nav img{
+    width: 100px;
+}
+nav a{
+    text-decoration: red;
+    font-size: 25px;
+    width: 200px; height: 60pv;
+    color: #000;
+
+}
+.card {
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Dancing Script", cursive;
+    box-shadow: 10px, 10px, 20px #000;
+    background-color: aliceblue;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    border-radius: 20px 20px 0 0 ;
+
+}
+.card-content h1{
+    color: blueviolet;
+    text-align: center;
+}
+body{
+    background-color: aqua;
+}
+
+.targetas{
+    display: flex;
+}
+    
+
+.card:hover{
+    transform: scale(1.1);
+    background-color: aliceblue;
+}
+.welcome{
+    padding: 20px;
+    background-color: rgba(80, 187, 244, 0.934);
+    text-align: center;
+    color: black;
+}
+.courses{
+    padding:  30px;
+    text-align: center;
+
+}
