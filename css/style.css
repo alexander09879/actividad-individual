@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
 body{
     background-color: rgb(65, 238, 232);
+    flex-direction: column;
 }
 nav{
     display: flex;
    justify-content: space-around;
    align-items: center;
-   background-color: rgba(80, 187, 244, 0.934);
+   background-color: rgba(2, 65, 99, 0.934);
    font-family: "Big Shoulders Stencil", sans-serif;
+    
    
     
 }
@@ -19,7 +22,7 @@ nav a{
     text-decoration: red;
     font-size: 25px;
     width: 200px; height: 60pv;
-    color: #000;
+    color: rgb(154, 244, 244);
 
 }
 .card {
@@ -31,22 +34,27 @@ nav a{
     box-shadow: 10px, 10px, 20px #000;
     background-color: aliceblue;
     text-align: center;
+    font-family: "Teko", sans-serif
 }
 .card img{
     width: 100%;
     border-radius: 20px 20px 0 0 ;
+    
 
 }
 .card-content h1{
-    color: blueviolet;
+    color: rgb(111, 213, 241);
     text-align: center;
 }
 body{
-    background-color: aqua;
+    background-color: rgb(154, 244, 244);
+    flex-direction: column;
 }
 
 .targetas{
     display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
     
 
@@ -56,12 +64,37 @@ body{
 }
 .welcome{
     padding: 20px;
-    background-color: rgba(80, 187, 244, 0.934);
+    background-color:rgba(2, 65, 99, 0.934);
     text-align: center;
-    color: black;
+    color: rgb(154, 244, 244);
+    font-family: "Big Shoulders Stencil", sans-serif;
+   
+    
+
 }
 .courses{
-    padding:  30px;
     text-align: center;
 
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .info button a{
+    color: rgba(2, 65, 99, 0.934);
+    text-decoration: none;
+   
+  }
+  .info button{
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+
+  }
+  footer{
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(2, 65, 99, 0.934);
+    color: rgb(154, 244, 244);
 }
